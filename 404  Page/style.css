@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Stalinist One';
+    src: url("");
+    
+}
+body{
+        font-family: 'Stalinist One';
+    background-image: url("p05bcxt5.jpg");
+}
+h1{
+    font-size: 100px;
+    margin-top: 100px;
+    padding-right: 25px;
+    text-align: center;
+    color:darkblue;
+}
+h2{
+    padding-right: 25px;
+    text-align: center;
+    color:#49B712;
+}
+a{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: darkblue;
+    padding-right: 25px;
+}
+
