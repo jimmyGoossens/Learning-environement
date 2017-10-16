@@ -1,0 +1,59 @@
+body{
+    background-image: url(CraUOV.jpg);
+    color: white;
+}
+
+#container{
+    display: flex;
+    
+}
+section{
+    
+    display: flex;
+}
+footer{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding-top:20px;
+    height: 150px;
+}
+#card{
+    
+    width: 1020px;
+    margin:150px;
+    background-color: darkblue;
+    
+}
+#profil{
+    
+    margin: 50px;
+    border-radius: 50%;
+    border: 3px solid grey;
+}
+#texte{
+    
+    margin: 50px;
+}
+nav{
+    
+    
+    margin 75px;
+    padding-top: 50px;
+}
+.onglets{
+    
+    border-radius: 10%;
+    margin:5px;
+    width: 120px;
+    padding: 5px;
+    
+}
+.onglets:hover{
+    
+    
+    box-shadow: 5px 5px 2px gray;
+}
