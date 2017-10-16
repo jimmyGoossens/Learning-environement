@@ -1,0 +1,36 @@
+@keyframes force {
+    0% {
+    top: -100px;
+    transform: rotateX(30deg)  translateZ(0);
+  }
+    100% { 
+    top: -6000px;
+    transform: rotateX(35deg) translateZ(-2500px);
+  }
+}
+
+
+
+body{
+    
+    background-image: url(j8eMFrM.jpg);
+    overflow: hidden;
+     perspective: 1000px;
+}
+section{
+    
+    color: yellow;
+   
+    position: relative;
+    font-size: 35px;
+    width: 800px;
+    height: 600px;
+    animation: force 60s linear;
+    margin-left: 300px;
+}
+div{
+
+
+    position: relative;
+     
+}
