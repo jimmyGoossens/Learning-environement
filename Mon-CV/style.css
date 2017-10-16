@@ -1,0 +1,61 @@
+*{
+    
+    margin-top:0px;
+}
+@font-face {
+    
+    font-family: 'Rampant';
+   src: url('Rampant.otf');
+}
+@font-face{
+    font-family:'Christmas in Finland';
+    src: url('Christmas in Finland.ttf')
+    
+}
+body {
+    background-image: url(511118930.jpg);
+    
+}
+header{
+    background-image: url(cool-background.jpg);
+    font-family: 'Rampant';
+    color:aquamarine;
+    padding-left: 15px;
+    
+}
+nav{
+    margin-top: 0px;
+    margin-left:0px;
+    background-color: #6159FF;
+    text-align: center;
+    padding: 10px;
+}
+img{
+    border-radius: 50%;
+}
+section{
+    
+    margin-left:100px;
+    padding-top: 50px;
+    width: 600px;
+}
+#presentation{
+    
+    font-family: 'Christmas in Finland';
+    font-size: 35px;
+    color:white;
+}
+h2{
+    
+    margin-bottom: 0px;
+}
+#conteneur{
+    
+    display:flex;
+}
+#taf{
+    
+    margin-left: 75px;
+    
+    font-size: 35px;
+}
