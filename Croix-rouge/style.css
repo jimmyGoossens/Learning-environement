@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+}
+@keyframes slider {
+    
+    0%{transform: translateX(0px);}
+    20%{transform: translateX(0px);}
+    25%{transform: translateX(-800px);}
+    45%{transform: translateX(-800px);}
+    50%{transform: translateX(-1600px);}
+    70%{transform: translateX(-1600px);}
+    75%{transform: translateX(-2400px);}
+    95%{transform: translateX(-2400px);}
+    100%{transform: translateX(0px);}
+}
+body{
+    
+    background-color: #3F2DFF;
+}
+header{
+    height: 60px;
+    background-color:firebrick;
+    display:flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+#menu{
+    padding: 17px;
+    width:500px;
+    display:flex;
+    justify-content: space-around
+        
+}
+#container{
+    
+    display: flex;
+    
+    
+}
+.vignette{
+    
+    position: absolute;
+    margin: 50px;
+}
+
+#slider{
+    
+	background: #000;
+    overflow: hidden;
+    height: 336px;
+    width: 800px;
+    margin-left: 75px;
+    margin-top: 50px;
+    border: 4px outset black;
+    
+}
+#sliderBox{
+    width:4000px;
+    height: 336px;
+    position: relative;
+    animation: slider 30s linear;
+    
+    
+}
+section{
+    border: 3px solid black;
+    height: auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+}
+.article{
+    
+    border: 3px solid black;
+    height:300px;
+    width: 200px;
+    
+}
+
+nav{
+    height:500px;
+    width: 180px;
+    
+    padding-top: 50px;
+}
+#flex{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#video{
+    margin:100px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    
+    width: 300px;
+    padding top:200px;
+}
+input{
+    
+    margin: 5px;
+}
+img{
+    
+    float: left;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 10%
+        
+}
+#actu{
+    
+    margin-left: 250px;
+    margin-bottom: 25px;
+}
